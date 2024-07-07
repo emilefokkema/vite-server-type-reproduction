@@ -1,0 +1,22 @@
+{
+  "name": "vite-server-type-reproduction",
+  "version": "1.0.0",
+  "description": "Reproduce vite issue with inconvenient typing of server in config",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "dev": "vite dev"
+  },
+  "keywords": [
+    "bug",
+    "reproduction"
+  ],
+  "author": "Emile Fokkema",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.14.10",
+    "typescript": "^5.5.3",
+    "vite": "^5.3.3"
+  }
+}

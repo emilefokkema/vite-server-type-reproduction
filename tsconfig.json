@@ -1,0 +1,11 @@
+{
+    "include": [
+     "**/*.ts"
+    ],
+    "compilerOptions": {
+      "noEmit": true,
+      "module": "ESNext",
+      "moduleResolution": "node",
+      "types": ["node"]
+    }
+  }
